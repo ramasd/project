@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.size {
+    width:26em;
+    height:18em;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -9em;
+    margin-left: -13em;
+}
+
+.bg-grad {
+    background-color: #3d003a; /* For browsers that do not support gradients */
+    background-image: radial-gradient(circle, #ffbffc -230%, #3d003a 150%);
+}
+
+.header-bg-grad {
+    background-color: #3d003a;
+    background-image: radial-gradient(circle, #ffbffc -120%, #3d003a 120%);
+    color:white;
+    font-family: "Helvetica";
+}
+
+.btn-bg-grad {
+    background-color: #3d003a;
+    border-color: #3d003a;
+    background-image: radial-gradient(circle, #ffbffc -120%, #3d003a 120%);
+    color:white;
+    font-family: "Helvetica";
+}
+
+.input-icons i { 
+    position: absolute; 
+    right:10px;
+    top:2px;
+    color:gray;
+} 
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+} 
+  
+.icon { 
+    padding: 10px; 
+    min-width: 50px; 
+} 
+  
+.input-field { 
+    width: 100%; 
+    padding: 10px; 
+    text-align: left; 
+} 
+  
